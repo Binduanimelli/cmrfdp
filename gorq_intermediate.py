@@ -16,7 +16,7 @@ def ask_question(api_key, question):
     print("\nResponse:", response.choices[0].message.content)
 
 def main():
-    api_key = "your_api"
+    api_key = "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"
     question = input("Enter your question: ")
     ask_question(api_key, question)
 
